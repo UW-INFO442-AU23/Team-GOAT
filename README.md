@@ -13,7 +13,7 @@
 
 ...
 ## Features
-
+* Interactive map feature 
 ...
 # User Personas
 
