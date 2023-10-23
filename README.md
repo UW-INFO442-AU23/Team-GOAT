@@ -1,7 +1,14 @@
+
+## Resource for Feminine Product 
 # Mission Statement 
 
 ...
 # Group Members
+* Asigiah Aly
+* Easha Dhillon
+* Emily Blakeman
+* Joyce Kim
+* Tyler Takeuchi
 
 ...
 # Features
