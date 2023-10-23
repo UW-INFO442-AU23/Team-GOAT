@@ -1,11 +1,21 @@
+# Campus Care 
+
+### Resource for Feminine Product 
+## Mission Statement 
 # Mission Statement
 
 ...
-# Group Members
+## Group Members
+* Asigiah Aly
+* Easha Dhillon
+* Emily Blakeman
+* Joyce Kim
+* Tyler Takeuchi
 
 ...
-# Features
-
+## Features
+* Interactive map feature 
+* Filter feature
 ...
 # User Personas
 
