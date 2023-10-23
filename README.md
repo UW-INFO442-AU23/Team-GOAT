@@ -1,4 +1,4 @@
-# Mission Statement 
+# Mission Statement
 
 ...
 # Group Members
@@ -11,6 +11,9 @@
 
 ...
 # Development
+
+...
+# Testing Protocols
 
 ## Getting Started with Create React App
 
