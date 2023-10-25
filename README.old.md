@@ -1,2 +1,0 @@
-# Team-GOAT
-Team GOAT 
