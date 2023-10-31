@@ -244,3 +244,19 @@ h4 {
     padding: 50px;
     margin: 200px 20px; /* Increase the margin-top value to go down*/
 }
+
+.resource_blurb {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 20px;
+    color: white;
+    background-color: #008f95;
+    font-size: 18px;
+    text-align: center;
+}
