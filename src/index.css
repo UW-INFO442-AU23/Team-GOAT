@@ -8,8 +8,8 @@
     padding-left: 6rem;
     padding-right: 6rem;
     border-radius: 20px;
-    color: white;
-    background-color: #008f95;
+    color: #F2E4C8;
+    background-color: #70268A;
     font-size: 18px;
     text-align: center;
 }
@@ -75,14 +75,14 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #008f95;
+    background-color: #F2E4C8;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     padding-left: 1.3rem;
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ nav a:hover, nav a:focus, nav a:active {
 }
 
 nav p {
-    color: white;
+    color: #70268A;
     word-spacing: 20px;
     text-align: right;
     padding-right: 2rem;
@@ -106,13 +106,13 @@ nav ul {
 
 /*Home page headingS*/
 h3 {
-    font-weight: bold; /* THIS AINT WORKING */ 
+    font-weight: bold; /* THIS AINT WORKING */
     font-size: 40px;
     padding-top: 4rem;
     font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: 300;
     margin-top: 5rem;
-    margin-bottom: 0rem; 
+    margin-bottom: 0rem;
 }
 
 /*filter header*/
@@ -123,7 +123,7 @@ h4 {
     font-family: "Montserrat", Helvetica, sans-serif;
     font-weight: 300;
     margin-top: 0rem;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
 }
 
 /* Style for the page container */
@@ -136,7 +136,7 @@ h4 {
 .aboutmap-container {
     width: calc(50% - 20px); /* Adjust the width as needed */
     padding: 20px; /* Add padding to the left container */
-    border: 2px  
+    border: 2px
 }
 
 .aboutmap-header {
@@ -148,7 +148,7 @@ h4 {
 /* Style for the map container */
 .map-container {
     width: calc(50% - 20px); /* Adjust the width as needed */
-    border: 2px 
+    border: 2px
 }
 
 /* Style for the heading within the map header */
@@ -180,7 +180,7 @@ h4 {
     -ms-user-select: none;
     user-select: none;
   }
-  
+
   /* Hide the browser's default checkbox */
   .checkbox-container input {
     position: absolute;
@@ -189,7 +189,7 @@ h4 {
     height: 0;
     width: 0;
   }
-  
+
   /* Create a custom checkbox */
   .checkmark {
     position: absolute;
@@ -199,29 +199,29 @@ h4 {
     width: 25px;
     background-color: #eee;
   }
-  
+
   /* On mouse-over, add a grey background color */
   .checkbox-container:hover input ~ .checkmark {
     background-color: #ccc;
   }
-  
+
   /* When the checkbox is checked, add a blue background */
   .checkbox-container input:checked ~ .checkmark {
     background-color: #008f95;
   }
-  
+
   /* Create the checkmark/indicator (hidden when not checked) */
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
+
   /* Show the checkmark when checked */
   .checkbox-container input:checked ~ .checkmark:after {
     display: block;
   }
-  
+
   /* Style the checkmark/indicator */
   .checkbox-container .checkmark:after {
     left: 9px;
