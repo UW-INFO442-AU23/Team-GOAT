@@ -9,9 +9,8 @@ export default function App(props) {
       <div>
         <Router>
           <Routes>
-          <Route path="/Home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/About" element={<About />} />
-          {/* <Route path="/Resources" element={<Resources/>} /> */}
   
           </Routes>
         </Router> 
