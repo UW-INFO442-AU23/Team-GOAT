@@ -17,6 +17,6 @@ export default function App(props) {
             <Route path="/Navbar" element={<Navbar />} />
             <Route path="/Resources" element={<Resources />} />
           </Routes>
-        </Router> 
+        </Router>
     );
   }
