@@ -1,0 +1,41 @@
+body {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    padding-bottom: 40px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F2E4C8;
+    padding-top: 0rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1.5rem;
+}
+
+nav a {
+    color: #70268A;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+    color: white;
+    border-bottom: solid #70268A .2rem;
+    transition: all .20s ease-out
+}
+
+nav p {
+    color: #70268A;
+    word-spacing: 2px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
