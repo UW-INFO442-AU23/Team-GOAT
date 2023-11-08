@@ -1,0 +1,19 @@
+.about-paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 20px;
+    color: #F2E4C8;
+    background-color: #70268A;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-h2, .profile-h2 {
+    margin-top: -5rem;
+}
