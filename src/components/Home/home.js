@@ -1,9 +1,10 @@
 import React from "react";
+import './home.css'
 
 function Home() {
 
     return (
-        <section> 
+        <section>
 
             <div className="container">
                 <h1>Campus Map</h1>
