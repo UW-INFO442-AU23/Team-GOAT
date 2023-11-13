@@ -20,12 +20,25 @@ export default function Map(props) {
 
         if(!buildingArray.includes(locationData[key.Name])){
             buildingArray.push(location.Name)
+
+            var features = []
+            for(var n = 0; n < length; n++){
+                var key2 = n;
+                if(locationData[key2]["Name"] === location["Name"]){
+                    if(!features.includes(locationData[key2]["Name"])) {
+                        features.push(locationData[key2]["Name"])
+                        features.push(locationData[key2]["Hours"])
+                        features.push(locationData[key2]["Address"])
+                    }
+                }
+            }
+
         }
 
         tagArray.push( // This could use more polishing and styling to best suit our usecase
             <Marker position={[location["yPos"], location["xPos"]]} icon={new Icon({iconUrl: markerIconPng, iconSize: [25, 41], iconAnchor: [12, 41]})}>
                 <Popup>
-                    <Tag name = {location.Name} address={location.Address} hours={location.Hours}/> 
+                    <Tag name = {location.Name} address={location.Address} hours={location.Hours} feature={features}/> 
                 </Popup>
             </Marker>
         )

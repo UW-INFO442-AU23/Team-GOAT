@@ -63,7 +63,6 @@ function Home() {
 
     return (
         <section>
-
             <div className="container">
             <div className="text-filter">
                 <h1>Campus Map</h1>
@@ -125,7 +124,7 @@ const features = [
     { id: '6', value: 'South Campus'},
     { id: '7', value: 'West Campus'}
   
-  ];
+];
 
 
 export default Home;

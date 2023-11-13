@@ -1,17 +1,19 @@
-import './tag.css'
+import './tag.css';
 import React from "react";
 
 function Tag(props) {
-    
+    var features = props.feature;
+    let featurePills = [];
+    for(var i = 0; i<features.length; i++){
+        featurePills.push(
+            <p className="tagtext">{features[i]}</p>
+        )   
+    }
     return (
-        <div class="card">
-            <div class="card-body">
-                <h1 class="card-title">{props.Name}</h1>
-                <p class="h5">{props.Address}</p>
-                <p class="h5">{props.Hours}</p>
-            </div>
+        <div className="card">
+                {featurePills}
         </div>
-      )
+    )
 }
 
 export default Tag;

@@ -1,4 +1,8 @@
-.card-pill{
+.card {
+    background-color: #D8F0FB;
+}
+
+.card-body{
     border: none;
     background-color: white;
     color: black;
@@ -9,4 +13,9 @@
     display: inline-block;
     cursor: pointer;
     border-radius: 16px;
+}
+
+.tagtext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
 }
