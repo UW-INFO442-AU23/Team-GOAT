@@ -15,7 +15,7 @@ export default function About() {
                 <p>Meet Our Team
                 <br>
                 </br>
-                Welcome to Team Goat! We are a group of dedicated individuals working on the INFO 442 project at the University of Washington. 
+                Welcome to Team Goat! We are a group of dedicated individuals working on the INFO 442 project at the University of Washington.
                 </p>
                 <p>About Us
                 <br>
