@@ -1,14 +1,17 @@
 import React from "react";
 import './resources.css'
 
-function Resources() {
-
+export default function Resources() {
     return (
         <section>
-
-            <div className="container">
-                <h1>Campus Map</h1>
-                <p className="text-white lead">Lorem Ipsum is simply dummy text of the printing industry.</p>
+            <h1>Video</h1>
+            <div className="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=nlYlNF30bVg&t=22s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h1>More Resources</h1>
+            <div>
+<h2><a href="https://facilities.uw.edu/catalog/free-menstrual-product-program">Official list of UW buildings and room numbers with free menstraul products</a></h2>
+<h2><a href="https://sites.uw.edu/qcenter/programs-and-services-hub/menstruation-station/">Menstruation Station at the HUB</a></h2>
             </div>
 
             <footer>
@@ -20,5 +23,3 @@ function Resources() {
         </section>
       )
 }
-
-export default Resources;
