@@ -1,10 +1,10 @@
 .card {
-    background-color: #D8F0FB;
+    background-color: #F2E4C8;
 }
 
 .card-body{
     border: none;
-    background-color: white;
+    background-color: #F2E4C8;
     color: black;
     padding: 4px;
     margin: 4px !important;
