@@ -36,18 +36,21 @@ function Home() {
         } else if(id === '3') {
           let newData = locationData.filter(row => row.ADACompliant === 'TRUE');
           setData(newData);
-        } else if(id === '3'){
-          let newData = locationData.filter(row => row.Campus === 'north');
-          setData(newData);
         } else if(id === '4'){
-          let newData = locationData.filter(row => row.Campus === 'east');
+          let newData = locationData.filter(row => row.Campus === 'North');
           setData(newData);
         } else if(id === '5'){
-          let newData = locationData.filter(row => row.Campus === 'south');
+          let newData = locationData.filter(row => row.Campus === 'East');
           setData(newData);
         } else if(id === '6'){
-          let newData = locationData.filter(row => row.Campus === 'west');
+          let newData = locationData.filter(row => row.Campus === 'South');
           setData(newData);
+        } else if(id === '7'){
+          let newData = locationData.filter(row => row.Campus === 'West');
+          setData(newData);
+        } else if(id === '8'){
+            let newData = locationData.filter(row => row.Campus === 'Central');
+            setData(newData);
         } else {
           let idArray = []
           for(let i = 0; i < features.length; i++) {
@@ -122,7 +125,8 @@ const features = [
     { id: '4', value: 'North Campus'},
     { id: '5', value: 'East Campus'},
     { id: '6', value: 'South Campus'},
-    { id: '7', value: 'West Campus'}
+    { id: '7', value: 'West Campus'},
+    { id: '8', value: 'Central Campus'}
   
 ];
 
