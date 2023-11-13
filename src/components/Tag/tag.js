@@ -1,24 +1,16 @@
 import './tag.css'
 import React from "react";
 
-function Home() {
-
+function Tag(props) {
     return (
-        <section>
-
-            <div className="container">
-                <h1>Campus Map</h1>
-                <p className="text-white lead">Lorem Ipsum is simply dummy text of the printing industry.</p>
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">{props.Name}</h1>
+                <p class="h5">{props.Address}</p>
+                <p class="h5">{props.Hours}</p>
             </div>
-
-            <footer>
-                <div>
-                    <p>&copy; CampusCare 2023 INFO 442 Team GOAT</p>
-                </div>
-            </footer>
-
-        </section>
+        </div>
       )
 }
 
-export default Home;
+export default Tag;

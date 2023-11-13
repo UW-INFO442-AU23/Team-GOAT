@@ -3,6 +3,7 @@ import About from './components/About/about';
 import Home from './components/Home/home';
 import Navbar from './components/Navbar/navbar';
 import Tag from './components/Tag/tag';
+import Map from './components/Map/map';
 import Resources from './components/Resources/resources';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
