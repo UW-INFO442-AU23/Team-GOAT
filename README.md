@@ -2,8 +2,8 @@
 
 ### Resource for Feminine Product 
 ## Mission Statement 
+Our mission is to empower young women with comprehensive knowledge about menstrual cycles and reproductive health surrounding the resources around campus. We aim to provide accurate information and resources to help them navigate their upcoming periods by being able to locate feminine care products with more ease & efficiency, ensuring a more informed and comfortable experience throughout their journey.
 
-...
 ## Group Members
 * Asigiah Aly
 * Easha Dhillon
@@ -11,10 +11,9 @@
 * Joyce Kim
 * Tyler Takeuchi
 
-...
 ## Features
-* Interactive map feature 
-* Filter feature
+* Interactive Map Feature 
+* Filter Feature
 
 # Development
 ## Built with:
