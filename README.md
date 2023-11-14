@@ -59,11 +59,11 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 ## Testing Protocol
 |                           | **Feature #1: Interactive Map Feature** | **Feature #2: Filter Feature** 	|
 |---------------------------|-----------------------------------------|--------------------------------	|
-| Requirement Specification |Interactive map feature displaying locations on or  near the UW campus where feminine hygiene products  are available. Hovering over a location will open up a icon  tag allowing users to see further building information.|                                	|
-| Testing Cases             | *Validate if the map displays correctly *Clicking on the pop-up tag associated with the buildings *User Interaction by moving around/navigating the on the map *Map Zoom functionality by ensuring users can Zoom In/Out|                                	|
-| Expected Results          |                                         |                                	|
-| Expected Deficiency       |                                         |                                	|
-| Unexpected Results        |                                         |                                	|
+| **Requirement Specification** |Interactive map feature displaying locations on or  near the UW campus where feminine hygiene products  are available. Hovering over a location will open up a icon  tag allowing users to see further building information.|                                	|
+| **Testing Cases** | *Validate if the map displays correctly *Clicking on the pop-up tag associated with the buildings *User Interaction by moving around/navigating the on the map *Map Zoom functionality by ensuring users can Zoom In/Out| * Validate the button are working correctly * Filtering by 'Campus' (North or West Campus) Click on either 'North Campus' or 'West Campus' filter button * Filtering by 'View All' * Filtering by 'Open Now'|
+| **Expected Results** | * Displays the correct plot on the map * Tag populates corresponding information, minimizes other markers or previously opened tags * Click and drag allows the user to navigate * Boundaries are limited to the UW campus * Buttons are functional allowing users to zoom in and out * Pinch or 2 finger operations also work for zoom| * The button is clicked and provides feedback * Only items associated with the selected campus are displayed, while items from the other campus should be hidden * All items are displayed, and no items are hidden. * Only items that are currently open are displayed, while items that are closed should be hidden. |
+| **Expected Deficiency**       |                                         |                                	|
+| **Unexpected Results**        |                                         |                                	|
 
 
 
