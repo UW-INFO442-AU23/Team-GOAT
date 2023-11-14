@@ -2,7 +2,7 @@
 
 ### Resource for Feminine Product 
 ## Mission Statement 
-Our mission is to empower young women with comprehensive knowledge about menstrual cycles and reproductive health surrounding the resources around campus. We aim to provide accurate information and resources to help them navigate their upcoming periods by being able to locate feminine care products with more ease & efficiency, ensuring a more informed and comfortable experience throughout their journey.
+Our mission is to empower young women with comprehensive knowledge about menstrual cycles and reproductive health surrounding the resources around campus. We aim to provide accurate information and resources to help them navigate their upcoming periods by locating feminine care products with more ease & efficiency, ensuring a more informed and comfortable experience throughout their journey.
 
 ## Group Members
 * Asigiah Aly
@@ -59,8 +59,8 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 ## Testing Protocol
 |                           | **Feature #1: Interactive Map Feature** | **Feature #2: Filter Feature** 	|
 |---------------------------|-----------------------------------------|--------------------------------	|
-| Requirement Specification |                                         |                                	|
-| Testing Cases             |                                         |                                	|
+| Requirement Specification |Interactive map feature displaying locations on or  near the UW campus where feminine hygiene products  are available. Hovering over a location will open up a icon  tag allowing users to see further building information.|                                	|
+| Testing Cases             | *Validate if the map displays correctly *Clicking on the pop-up tag associated with the buildings *User Interaction by moving around/navigating the on the map *Map Zoom functionality by ensuring users can Zoom In/Out|                                	|
 | Expected Results          |                                         |                                	|
 | Expected Deficiency       |                                         |                                	|
 | Unexpected Results        |                                         |                                	|
