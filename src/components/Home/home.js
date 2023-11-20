@@ -70,7 +70,7 @@ function Home() {
             <div className="text-filter">
                 <h1>Campus Map</h1>
                 <text>About the Map: Text</text>
-                <h2>Filters:</h2>
+                {/* <h2>Filters:</h2> */}
                 <div className="wrapper">
                     <div className="accordion">
                         {filterType.map((item, i) => (

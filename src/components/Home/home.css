@@ -4,9 +4,137 @@ footer {
     left: 0px;
     width: 100%;
     background-color: #F2E4C8;
+    z-index: 1000; /* Set a higher z-index for the navbar */
 }
 
 footer p {
     padding-left: 20px;
     color: #70268A;
 }
+
+.container {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* padding-right: 20px; Add space to the right */
+    /* Other container styles */
+    /* margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.text-filter {
+    max-width: 300px;
+    /* Other styles for text-filter */
+}
+
+.text-filter h1 {
+    font-size: 42px; /* Adjust font size */
+    font-weight: bold;
+    margin-top: 0; 
+    margin-bottom: 10px; /* Adjust the space below the heading */
+    /* Other styles for the heading */
+}
+
+.text-filter text {
+    font-size: 16px; /* Adjust font size */
+    margin-top: 5px; /* Adjust the space above the text */
+    /* Other styles for the text */
+}
+
+text {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.wrapper {
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 600px; /* Increase the width directly on the .wrapper */
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.accordion {
+    /* width: 600px; Increasing the width */
+    margin-right: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item {
+    background: #F2E4C8;
+    padding: 5px 15px; /* Adjust the padding */
+    margin-right: 10px; /* Adjust the right margin between items */
+    border-radius: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter-title {
+    font-weight: 400 !important;
+    font-size: 28px;
+    margin-bottom: 5px; /* Adjust the space below the title */
+}
+
+.title span {
+    transform: scale(1.5); /* Fixed 'scale' property */
+    margin-right: 10px; /* Adjust the space between the span and title */
+}
+
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+  }
+ 
+  .content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+  }
+ 
+  input {
+    align-items: center;
+  }
+ 
+  input.checkboxes {
+    margin-right: 10px !important;
+    margin-left: 15px !important;
+    margin-bottom: 7px !important;
+    transform: scale(1.5);
+  }
+ 
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+  }
+ 
+  .feature-label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+ 
+  .checkboxes {
+    margin-right: 10px;
+  }
+
+
