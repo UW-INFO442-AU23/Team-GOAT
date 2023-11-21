@@ -66,12 +66,16 @@ function Home() {
 
     return (
         <section>
-            <div className="container">
-            <div className="text-filter">
-                <h1>Campus Map</h1>
-                <text>About the Map: Text</text>
-                {/* <h2>Filters:</h2> */}
-                <div className="wrapper">
+           <div className="container">
+            <h1>CampusCare</h1>
+            <text>Find Menstrual Products on University of Washington Seattle Campus</text>
+            </div>
+            <div class="main-wrapper">
+                <div class="map-and-wrapper">
+                    <div class="map-container">
+                      <Map data={data} />
+                    </div>
+                    <div className="wrapper">
                     <div className="accordion">
                         {filterType.map((item, i) => (
                             <div className="item" key={i}>
@@ -98,11 +102,10 @@ function Home() {
                             </div>
                         ))}
                     </div>
+                  </div>
                 </div>
-            </div>
-                <div> <Map data={data} /></div>
+                </div>
 
-            </div>
 
             <footer>
                 <div>

@@ -13,67 +13,64 @@ footer p {
 }
 
 .container {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* padding-right: 20px; Add space to the right */
-    /* Other container styles */
-    /* margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
-    margin: 20px;
-    margin-left: 40px;
+  text-align: center; /* Center the content horizontally */
 }
 
-.text-filter {
-    max-width: 300px;
-    /* Other styles for text-filter */
-}
-
-.text-filter h1 {
-    font-size: 42px; /* Adjust font size */
-    font-weight: bold;
-    margin-top: 0; 
-    margin-bottom: 10px; /* Adjust the space below the heading */
-    /* Other styles for the heading */
-}
-
-.text-filter text {
-    font-size: 16px; /* Adjust font size */
-    margin-top: 5px; /* Adjust the space above the text */
-    /* Other styles for the text */
+h1 {
+  font-size: 42px; /* Adjust font size */
+  font-weight: bold;
+  margin-top: 0; 
+  margin-bottom: 10px; /* Adjust the space below the heading */
+  text-align: center;
 }
 
 text {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px; /* Adjust font size */
+  margin-top: 5px; /* Adjust the space above the text */
+  margin-bottom: 5px;
+  text-align: center;
 }
 
+
 h1, h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
+
+.main-wrapper {
+  position: relative;
+}
+
+.map-and-wrapper {
+  display: flex;
+  flex-direction: column; /* To place the elements on the sides */
+}
+
+.map-container {
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+  position: relative; /* Add position relative for positioning */
+  left: 20px; /* Adjust to move the map-container further to the right */
+}
+
 .wrapper {
-    display: flex;
-    position: relative;
-    height: 50%;
-    width: 600px; /* Increase the width directly on the .wrapper */
-    justify-content: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    
+  position: absolute;
+  top: 50px; /* Adjust vertical positioning */
+  right: 40px;
 }
 
 .accordion {
-    /* width: 600px; Increasing the width */
-    margin-right: 15px;
-    align-items: center;
     margin-bottom: 20px;
+    margin-left: 20px; /* Adjust the left spacing when expanded */
 }
 
 .item {
-    background: #F2E4C8;
+    background: #70268A;
+    color: white;
     padding: 5px 15px; /* Adjust the padding */
-    margin-right: 10px; /* Adjust the right margin between items */
+    margin-right: 5px; /* Adjust the right margin between items */
     border-radius: 30px;
 }
 
@@ -90,8 +87,9 @@ h1, h2 {
 }
 
 .title span {
-    transform: scale(1.5); /* Fixed 'scale' property */
-    margin-right: 10px; /* Adjust the space between the span and title */
+    transform: scale(2); /* Fixed 'scale' property */
+    margin-left: 300px; /* Increase the margin to move the span more to the right */
+    margin-top: 10px; /* Adjust the space below the title */
 }
 
   .content {
@@ -137,4 +135,39 @@ h1, h2 {
     margin-right: 10px;
   }
 
+  @media screen and (max-width: 480px) {
+    .map-container {
+      width: 80%; /* Adjust the width for smaller screens */
+      margin: 10px auto; /* Center the map container */
+      left: 0; /* Reset left positioning */
+    }
+  
+    /* Example of making the .wrapper more responsive */
+    .wrapper {
+      position: static; /* Change positioning for smaller screens */
+      margin-top: 20px; /* Adjust margin for smaller screens */
+      right: 0; /* Reset right positioning */
+    }
+  
+    /* Move .accordion below .map-container */
+    .accordion {
+      margin-top: 80px; /* Adjust margin for smaller screens */
+      margin-left: 20px; /* Adjust left margin */
+    }
+  
+    .item {
+      padding: 5px 10px; /* Adjust padding for items */
+      margin-right: 3px; /* Adjust right margin between items */
+    }
+  
+    .title span {
+      margin-left: 120px; /* Adjust the margin for smaller screens */
+      margin-top: 5px; /* Adjust the space below the title */
+      transform: scale(1); /* Adjust the scaling */
+    }
+  }
 
+  
+
+
+  

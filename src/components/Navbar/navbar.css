@@ -1,5 +1,5 @@
 body {
-    font-family: "Montserrat", Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 
@@ -13,27 +13,41 @@ nav {
     left: 0;
     width: 100%;
     background-color: #F2E4C8;
-    padding-top: 0rem;
-    padding-bottom: 0.7rem;
+    padding-top: 1rem; /* Increase the top padding to increase the height */
+    padding-bottom: 1rem; /* Increase the bottom padding to increase the height */
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: fixed;
+    justify-content: space-between; /* Add space between items */
+    z-index: 1000; /* Set a high z-index value */
 }
 
-nav a {
+.navbar-content {
+    display: flex;
+    align-items: center;
+    margin: 0; 
     color: #70268A;
-    text-decoration: none;
-    margin: 0 1rem;
+    margin-left: auto;
 }
 
-nav a:hover, nav a:focus, nav a:active {
+/* Or for individual links within the navbar content */
+.navbar-content a {
+    color: #70268A;
+    word-spacing: 2px;
+    margin-left: 10px; /* Move the individual links to the right */
+}
+
+.navbar-content a:hover, nav a:focus, nav a:active {
     color: #70268A;
     border-bottom: solid #70268A .2rem;
     transition: all .20s ease-out
 }
 
-nav p {
-    color: #70268A;
-    word-spacing: 2px;
-}
+.campus-care {
+    margin-right: auto; /* Pushes 'CampusCare' text to the right */
+    font-size: 28px;
+  }
+  
 
 nav ul {
     margin: 0;
