@@ -24,11 +24,11 @@ function Home() {
           [event.target.id]: event.target.checked,
         });
         if(event.target.checked === false) {
-          setData(data);
+          setData(locationData);
         } else {
           let id = event.target.id;
         if(id === '1') {
-          let newData= data; 
+          let newData= locationData; 
           setData(newData);
         } else if(id === '2') {
           let newData = locationData.filter(row => row.Gender === 'TRUE');// e.g. row => row.Gender === 'TRUE' AND row => row.WestCampus === 'TRUE'
@@ -69,8 +69,6 @@ function Home() {
             <div className="container">
             <div className="text-filter">
                 <h1>Campus Map</h1>
-                <text>About the Map: Text</text>
-                <h2>Filters:</h2>
                 <div className="wrapper">
                     <div className="accordion">
                         {filterType.map((item, i) => (
@@ -129,6 +127,9 @@ const features = [
     { id: '8', value: 'Central Campus'}
   
 ];
+
+// TODO:
+// Correct location data, edit the filters to make view all reset to display all 
 
 
 export default Home;
