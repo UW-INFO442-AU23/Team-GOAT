@@ -67,7 +67,7 @@ function Home() {
     return (
         <section>
            <div className="container">
-            <h1>CampusCare</h1>
+            <h1>Welcome to CampusCare!</h1>
             <text>Find Menstrual Products on University of Washington Seattle Campus</text>
             </div>
             <div class="main-wrapper">
