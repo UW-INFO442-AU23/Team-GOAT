@@ -24,11 +24,11 @@ function Home() {
           [event.target.id]: event.target.checked,
         });
         if(event.target.checked === false) {
-          setData(data);
+          setData(locationData);
         } else {
           let id = event.target.id;
         if(id === '1') {
-          let newData= data; 
+          let newData= locationData;
           setData(newData);
         } else if(id === '2') {
           let newData = locationData.filter(row => row.Gender === 'TRUE');// e.g. row => row.Gender === 'TRUE' AND row => row.WestCampus === 'TRUE'
