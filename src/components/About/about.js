@@ -7,12 +7,12 @@ export default function About() {
             <h1 className="about-h1">Welcome to Campus Care!</h1>
             <h2 className="about-h2">Resource for finding menstrual products on UW Seattle Campus</h2>
             <div className="about-paragraph">
-                <p>Mission Statement
+                <p><b>Mission Statement</b>
                 <br>
                 </br>
                 Our mission is to empower young women with comprehensive knowledge about menstrual cycles and reproductive health. We aim to provide accurate information and resources to help them predict their upcoming periods and offer personalized recommendations, ensuring a more informed and comfortable experience throughout their journey.
                 </p>
-                <p>Meet Our Team
+                <p><b>Meet Our Team</b>
                 <br>
                 </br>
                 Welcome to Team Goat! We are a group of dedicated individuals working on the INFO 442 project at the University of Washington.
@@ -21,7 +21,7 @@ export default function About() {
   <img src= 'https://github.com/UW-INFO442-AU23/team-goat/blob/main/imgs/Screenshot%202023-11-29%20at%2011.28.55%20AM.png?raw=true'
    alt="Group photo" class="img-fluid overview-img" />
                 </div>
-                <p>About Us
+                <p><b>About Us</b>
                 <br>
                 </br>
                 Team GOAT is particularly interested in the third UN SDG: Good health and well-being. The menstruation cycle is a vital factor in women's health. Women all across the world struggle to access feminine hygiene products, and increasing accessibility to these products for UW students is a small step towards a more equitable community.
