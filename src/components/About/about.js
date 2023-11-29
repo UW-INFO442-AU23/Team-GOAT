@@ -10,7 +10,7 @@ export default function About() {
                 <p><b>Mission Statement</b>
                 <br>
                 </br>
-                Our mission is to empower young women with comprehensive knowledge about menstrual cycles and reproductive health on the University of Washington Campus. We aim to provide accurate information and resources to help them navigate their upcoming periods and offer up-to-date feminine product locator, ensuring a more informed and comfortable experience throughout their journey.
+                Our mission is to empower young women with comprehensive knowledge about menstrual cycles and reproductive health on the University of Washington Campus. We aim to provide accurate information and resources to help them navigate their upcoming periods and offer an up-to-date feminine product locator, ensuring a more informed and comfortable experience throughout their journey.
                 </p>
                 <p><b>Meet Our Team</b>
                 <br>
