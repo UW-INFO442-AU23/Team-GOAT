@@ -36,9 +36,5 @@
       padding: 1rem;
   }
 
-  .about-h1, .about-h2, .profile-h2 {
-    margin-left: 120px; /* Adjust the margin for smaller screens */
-    margin-top: 5px auto; /* Adjust the space below the title */
-   
-  }
+ 
 }
