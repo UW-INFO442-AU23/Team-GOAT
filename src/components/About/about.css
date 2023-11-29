@@ -31,12 +31,12 @@
 @media screen and (max-width: 480px) {
   .about-paragraph {
       width: 80%; /* Adjust the width for smaller screens */
-      margin: 10px auto; /* Center the map container */
+      margin: 10px auto; /* Center the container */
       left: 0; /* Reset left positioning */  
       padding: 1rem;
   }
 
-  .about-h2, .profile-h2 {
+  .about-h2, about-h1, .profile-h2 {
     margin-left: 120px; /* Adjust the margin for smaller screens */
     margin-top: 5px; /* Adjust the space below the title */
     transform: scale(1); /* Adjust the scaling */
