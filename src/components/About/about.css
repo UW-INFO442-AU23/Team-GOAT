@@ -14,8 +14,8 @@
     text-align: center;
 }
 
- .profile-h2 {
-    margin-top: -5rem;
+  .about-h2,.profile-h2 {
+    margin-top: -6rem;
 }
 
 .video {
