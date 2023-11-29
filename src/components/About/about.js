@@ -18,7 +18,7 @@ export default function About() {
                 Welcome to Team Goat! We are a group of dedicated individuals working on the INFO 442 project at the University of Washington.
                 </p>
                 <div className="col-lg-6 overview-img-container">
-  <img src= 'https://github.com/UW-INFO442-AU23/team-goat/blob/main/imgs/PNG%20image.jpeg?raw=true'
+  <img src= 'https://github.com/UW-INFO442-AU23/team-goat/blob/main/imgs/Screenshot%202023-11-29%20at%2011.28.55%20AM.png?raw=true'
    alt="Group photo" class="img-fluid overview-img" />
                 </div>
                 <p>About Us
