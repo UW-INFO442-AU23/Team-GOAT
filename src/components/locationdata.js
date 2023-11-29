@@ -121,19 +121,19 @@ export const locationData =
         "Gender": "TRUE",
         "ADACompliant": "FALSE"
         },
-        // {
-        // "Name": "Chemistry Building",
-        // "xPos": "-122.3907413",
-        // "yPos": "47.6529301",
-        // "Address": "4000 15th Ave NE",
-        // "Hours": "Monday - Friday 7am - 5pm",
-        // "Campus": "West",
-        // "Gender": "TRUE",
-        // "ADACompliant": "TRUE"
-        // },
+        {
+        "Name": "Chemistry Building",
+        "xPos": "-122.30834197",
+        "yPos": "47.6529301",
+        "Address": "4000 15th Ave NE",
+        "Hours": "Monday - Friday 7am - 5pm",
+        "Campus": "West",
+        "Gender": "TRUE",
+        "ADACompliant": "TRUE"
+        },
         {
         "Name": "Clark Hall",
-        "xPos": "-122.3068088",
+        "xPos": "-122.30489349",
         "yPos": "47.6574893",
         "Address": "2103 Skagit Ln, Seattle, WA 98195",
         "Hours": "Open 24/7",
@@ -143,8 +143,8 @@ export const locationData =
         },
         {
         "Name": "Communications Building",
-        "xPos": "-122.3066881",
-        "yPos": "47.6573888",
+        "xPos": "-122.3053422",
+        "yPos": "47.6570309",
         "Address": "2023 King Ln NE, Seattle, WA 98105",
         "Hours": "Monday - Friday 11am - 6pm",
         "Campus": "North",
@@ -161,16 +161,16 @@ export const locationData =
         "Gender": "FALSE",
         "ADACompliant": "FALSE"
         },
-        // {
-        // "Name": "Cunningham Hall",
-        // "xPos": "-122.4428957",
-        // "yPos": "47.6572204",
-        // "Address": "NE 41st St and 15th Ave NE",
-        // "Hours": "unknown",
-        // "Campus": "East",
-        // "Gender": "TRUE",
-        // "ADACompliant": "FALSE"
-        // },
+        {
+        "Name": "Cunningham Hall",
+        "xPos": "-122.3111969",
+        "yPos": "47.6571908",
+        "Address": "NE 41st St and 15th Ave NE",
+        "Hours": "unknown",
+        "Campus": "East",
+        "Gender": "TRUE",
+        "ADACompliant": "FALSE"
+        },
         {
         "Name": "Dempsey Hall",
         "xPos": "-122.305416",
@@ -201,16 +201,16 @@ export const locationData =
         "Gender": "TRUE",
         "ADACompliant": "TRUE"
         },
-        // {
-        // "Name": "Electrical & Computer Engineering Building",
-        // "xPos": "-122.3217415",
-        // "yPos": "47.6606936",
-        // "Address": "185 W Stevens Way NE, Seattle, WA 98195",
-        // "Hours": "Monday - Friday 7am - 11pm",
-        // "Campus": "East",
-        // "Gender": "FALSE",
-        // "ADACompliant": "TRUE"
-        // },
+        {
+        "Name": "Electrical & Computer Engineering Building",
+        "xPos": "-122.30558",
+        "yPos": "47.65317",
+        "Address": "185 W Stevens Way NE, Seattle, WA 98195",
+        "Hours": "Monday - Friday 7am - 11pm",
+        "Campus": "East",
+        "Gender": "FALSE",
+        "ADACompliant": "TRUE"
+        },
         {
         "Name": "Engineering Annex",
         "xPos": "-122.3042828",
@@ -231,16 +231,16 @@ export const locationData =
         "Gender": "FALSE",
         "ADACompliant": "FALSE"
         },
-        // {
-        // "Name": "Ethnic Cultural Center",
-        // "xPos": "-122.3971845",
-        // "yPos": "47.6550655",
-        // "Address": "3931 Brooklyn Ave NE, Seattle, WA 98105",
-        // "Hours": "Monday - Friday 9am - 9pm",
-        // "Campus": "West",
-        // "Gender": "TRUE",
-        // "ADACompliant": "TRUE"
-        // },
+        {
+        "Name": "Ethnic Cultural Center",
+        "xPos": "-122.3148387",
+        "yPos": "47.6550655",
+        "Address": "3931 Brooklyn Ave NE, Seattle, WA 98105",
+        "Hours": "Monday - Friday 9am - 9pm",
+        "Campus": "West",
+        "Gender": "TRUE",
+        "ADACompliant": "TRUE"
+        },
         {
         "Name": "Fishery Sciences Building",
         "xPos": "-122.3191085",
@@ -272,8 +272,8 @@ export const locationData =
         },
         {
         "Name": "Founders Hall",
-        "xPos": "-122.3070242",
-        "yPos": "47.661386",
+        "xPos": "-122.3069839",
+        "yPos": "47.6588745",
         "Address": "4215 E Stevens Way NE, Seattle, WA 98195",
         "Hours": "Monday - Friday 8am - 6pm",
         "Campus": "North",
@@ -449,45 +449,46 @@ export const locationData =
     "Campus": "South",
     "Gender": "TRUE",
     "ADACompliant": "FALSE"
+    },
+    {
+    "Name": "Mary Gates Hall",
+    "xPos": "-122.3077850",
+    "yPos": "47.6548919",
+    "Address": "1851 NE Grant Ln, Seattle, WA 98195",
+    "Hours": "Monday - Sunday 7am -12am",
+    "Campus": "West",
+    "Gender": "TRUE",
+    "ADACompliant": "FALSE"
+    },
+    {
+    "Name": "Meany hall",
+    "xPos": "-122.3106617",
+    "yPos": "47.6556645",
+    "Address": "4040 George Washington Lane Northeast, Seattle, WA 98195",
+    "Hours": "Monday - Friday 7am -7pm",
+    "Campus": "West",
+    "Gender": "TRUE",
+    "ADACompliant": "FALSE"
+    },
+    {
+    "Name": "Mechanical Engineering Building",
+    "xPos": "-122.3047603",
+    "yPos": "47.6536876",
+    "Address": "3900 E Stevens Way NE, Seattle, WA 98195",
+    "Hours": "Monday - Friday 9am -12pm/1pm -4:30pm",
+    "Campus": "South",
+    "Gender": "TRUE",
+    "ADACompliant": "FALSE"
+    },
+    {
+    "Name": "Miller Hall",
+    "xPos": "-122.3063209",
+    "yPos": "47.6572053",
+    "Address": "2012 Skagit Ln, Seattle, WA 98105",
+    "Hours": "Unknown Hours",
+    "Campus": "North",
+    "Gender": "TRUE",
+    "ADACompliant": "FALSE"
     }
-    // "Name": "Mary Gates Hall",
-    // "xPos": "-122.3491499",
-    // "yPos": "47.655022",
-    // "Address": "1851 NE Grant Ln, Seattle, WA 98195",
-    // "Hours": "Monday - Sunday 7am -12am",
-    // "Campus": "West",
-    // "Gender": "TRUE",
-    // "ADACompliant": "FALSE"
-    // },
-    // {
-    // "Name": "Meany hall",
-    // "xPos": "-122.3513804",
-    // "yPos": "47.6551544",
-    // "Address": "4040 George Washington Lane Northeast, Seattle, WA 98195",
-    // "Hours": "Monday - Friday 7am -7pm",
-    // "Campus": "West",
-    // "Gender": "TRUE",
-    // "ADACompliant": "FALSE"
-    // }
-    // {
-    // "Name": "Mechanical Engineering Building",
-    // "xPos": "-122.3871002",
-    // "yPos": "47.6536093",
-    // "Address": "3900 E Stevens Way NE, Seattle, WA 98195",
-    // "Hours": "Monday - Friday 9am -12pm/1pm -4:30pm",
-    // "Campus": "South",
-    // "Gender": "TRUE",
-    // "ADACompliant": "FALSE"
-    // },
-    // {
-    // "Name": "Miller Hall",
-    // "xPos": "-122.3475142",
-    // "yPos": "47.6572406",
-    // "Address": "2012 Skagit Ln, Seattle, WA 98105",
-    // "Hours": "Unknown Hours",
-    // "Campus": "North",
-    // "Gender": "TRUE",
-    // "ADACompliant": "FALSE"
-    // }
 ]
     
