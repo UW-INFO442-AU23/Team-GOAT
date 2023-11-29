@@ -27,3 +27,14 @@
   height: auto;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .about-paragraph {
+      margin: 1rem;
+      padding: 1rem;
+  }
+
+  .about-h2, .profile-h2 {
+      margin-top: -0.5rem; /* Adjust as needed */
+  }
+}
