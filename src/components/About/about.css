@@ -28,13 +28,17 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .about-paragraph {
-      margin: 1rem;
+      width: 80%; /* Adjust the width for smaller screens */
+      margin: 10px auto; /* Center the map container */
+      left: 0; /* Reset left positioning */  
       padding: 1rem;
   }
 
   .about-h2, .profile-h2 {
-      margin-top: -0.5rem; /* Adjust as needed */
+    margin-left: 120px; /* Adjust the margin for smaller screens */
+    margin-top: 5px; /* Adjust the space below the title */
+    transform: scale(1); /* Adjust the scaling */
   }
 }
