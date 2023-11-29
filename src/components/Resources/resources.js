@@ -45,7 +45,7 @@ export default function Resources() {
 
             <h1>More Resources</h1>
             <div>
-<h2><a href="https://facilities.uw.edu/catalog/free-menstrual-product-program">Official list of UW buildings and room numbers with free menstraul products</a></h2>
+<h2><a href="https://facilities.uw.edu/catalog/free-menstrual-product-program">Official list of UW buildings and room numbers with free menstrual products</a></h2>
 <h2><a href="https://sites.uw.edu/qcenter/programs-and-services-hub/menstruation-station/">Menstruation Station at the HUB</a></h2>
             </div>
 
