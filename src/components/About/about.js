@@ -17,12 +17,17 @@ export default function About() {
                 </br>
                 Welcome to Team Goat! We are a group of dedicated individuals working on the INFO 442 project at the University of Washington.
                 </p>
+                <div className="col-lg-6 overview-img-container">
+  <img src= 'https://github.com/UW-INFO442-AU23/team-goat/blob/main/imgs/PNG%20image.jpeg?raw=true'
+   alt="Group photo" class="img-fluid overview-img" />
+                </div>
                 <p>About Us
                 <br>
                 </br>
                 Team GOAT is particularly interested in the third UN SDG: Good health and well-being. The menstruation cycle is a vital factor in women's health. Women all across the world struggle to access feminine hygiene products, and increasing accessibility to these products for UW students is a small step towards a more equitable community.
 By using technology and visualization, students can much more easily navigate and access hygiene products without having to walk into an off-campus convenience store or pharmacy. Not only are there overlooked places to purchase these products, but there are also resources that provide them free of charge, and creating a tool that informs students of these different locations can drastically improve their quality of life.
                 </p>
+
             </div>
             <footer>
                 <div>
