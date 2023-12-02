@@ -85,3 +85,39 @@ p{
   font-weight: 550;
 }
 
+
+@media screen and (max-width: 480px) {
+  .about-paragraph,
+  .process,
+  .resource-paragraph,
+  .tips {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+
+  .about-h2,
+  .profile-h2 {
+      margin-top: -3rem;
+  }
+
+  .tips-p {
+      margin-top: 0rem; /* Adjust this value as needed */
+  }
+
+  .tips h4 {
+      margin-bottom: 0rem; /* Adjust this value as needed */
+      font-size: 20px;
+      font-weight: 500;
+  }
+
+  .video {
+    width: 100%;
+    height: calc((100vw - 4rem) * 0.5625); /* 0.5625 is the aspect ratio 315/560 */
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+}
+
+

@@ -53,3 +53,21 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .navbar-content a {
+        margin-left: 5px; /* Adjust the spacing of individual links */
+    }
+
+    .campus-care {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+    
+}
