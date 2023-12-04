@@ -30,10 +30,31 @@
 
 @media screen and (max-width: 480px) {
   .about-paragraph {
-      width: 80%; /* Adjust the width for smaller screens */
-      margin: 10px auto; /* Center the container */
-      left: 0; /* Reset left positioning */  
+      width: 80%; 
+      margin: 1rem auto; 
+      left: 0; 
       padding: 1rem;
+  }
+
+  .about-h2, .profile-h2 {
+    font-size: 20px;
+
+  }
+
+  @media (hover: none) {
+    .about-paragraph {
+      padding: 10px;
+      font-size: 18px;
+      line-height: 1.6;
+      background-color: #70268A;
+      border-radius: 8px;
+    }
+  }
+
+  .overview-img {
+    max-width: 100%;
+    height: auto;
+
   }
 
  
