@@ -3,12 +3,11 @@
   margin-top: 0; 
   font-weight: bold;
   color: #F2E4C8;
+  text-shadow: 2px 2px 0 #70268A, -2px -2px 0 #70268A, 2px -2px 0 #70268A, -2px 2px 0 #70268A;
   
 }
 
-h1 {
-  text-shadow: 2px 2px 0 #70268A, -2px -2px 0 #70268A, 2px -2px 0 #70268A, -2px 2px 0 #70268A;
-}
+
 
 .about-h2 {
   font-size: 15px;
