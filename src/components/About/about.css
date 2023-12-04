@@ -1,5 +1,5 @@
 .about-h1 {
-  font-size: 30px;;
+  font-size: 30px;
   margin-top: 0; 
   font-weight: bold;
   color: #F2E4C8;
@@ -34,7 +34,7 @@
 .mission-statement,
 .team-info,
 .about-us {
-  margin-top: 2rem; /* Adjust as needed */
+  margin-top: 2rem; 
 }
 
 .mission-statement b,
@@ -46,11 +46,11 @@
 .mission-statement p,
 .team-info p,
 .about-us p {
-  margin-bottom: 1rem; /* Adjust as needed */
+  margin-bottom: 1rem; 
 }
 
 .col-lg-6.overview-img-container {
-  margin-top: 2rem; /* Adjust as needed */
+  margin-top: 2rem; 
 }
 
 .overview-img {
@@ -71,12 +71,12 @@
   }
 
   .about-h1{
-    font-size: 1.5rem;
+    font-size: 15px;
       margin-top: 0;
       font-weight: bold;
   }
   .about-h2 {
-    font-size: 1.2rem;
+    font-size: 5px;
       margin-top: 0;
       
   }
