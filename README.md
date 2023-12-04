@@ -70,14 +70,15 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Map Feature:
 * Check internet connectivity. 
 * Ensure the map data is up-to-date.
-* If the marker is unresponsive, reloading the map may resolve the issue. 
+* If the marker is unresponsive, reloading the map. 
 * Access the linked UW Resource site listed with specific rooms to find feminine products on the resource page 
 
 Filtering Feature:
  * If buttons are unresponsive, users can clear their browser cache and try again. 
  * If items from both campuses are still visible, users can reload the map. 
  * Regularly update and maintain the dataset to ensure completeness. 
- * Clear browser cache and try again. * Verify data consistency in the JSON file
+ * Clear browser cache and try again. 
+ * Verify data consistency in the JSON file
 
 
 
