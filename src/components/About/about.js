@@ -4,8 +4,12 @@ import './about.css'
 export default function About() {
     return (
         <section>
-            <h1 className="about-h1">Welcome to Campus Care!</h1>
-            <h2 className="about-h2">Resource for finding menstrual products on UW Seattle Campus</h2>
+            <div className="main-heading">
+                <h1 className="about-h1">Welcome to Campus Care!</h1>
+            </div>
+            <div className="subtitle">
+                <h2 className="about-h2">Resource for finding menstrual products on UW Seattle Campus</h2>
+            </div>
             <div className="about-paragraph">
                 <p><b>Mission Statement</b>
                 <br>

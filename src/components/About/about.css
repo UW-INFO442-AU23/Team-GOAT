@@ -1,11 +1,14 @@
 .about-h1 {
   font-size: 24px;
   margin-top: 0; 
+  font-weight: bold;
+  color: aliceblue;
 }
 
 .about-h2 {
   font-size: 20px;
   margin-top: 0; 
+  color: rgb(82, 0, 100);
 }
 
 .about-paragraph {
