@@ -114,7 +114,8 @@ p{
 
   .video {
     width: 100%;
-    height: calc((100vw - 4rem) * 0.5625); /* 0.5625 is the aspect ratio 315/560 */
+    height: auto;
+    max-width: 100%;
     margin-left: 2rem;
     margin-right: 2rem;
 }
