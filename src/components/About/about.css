@@ -14,16 +14,19 @@
     text-align: center;
 }
 
-  .about-h1, .about-h2, .profile-h2 {
+ .profile-h2 {
     margin-top: -6rem;
 }
 
 .about-h1 {
-  font-size: 24px; 
+  font-size: 24px;
+  margin-top: -6rem;
+  
 }
 
 .about-h2 {
   font-size: 20px; 
+  margin-top: -6rem;
 }
 
 .video {
