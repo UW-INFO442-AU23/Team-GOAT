@@ -71,12 +71,12 @@
   }
 
   .about-h1{
-    font-size: 15px;
+    font-size: 1rem;
       margin-top: 0;
       font-weight: bold;
   }
   .about-h2 {
-    font-size: 5px;
+    font-size: .5rem;
       margin-top: 0;
       
   }
