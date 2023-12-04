@@ -1,6 +1,6 @@
 # Campus Care 
 
-### Resource for Feminine Product 
+### Resource for Locating Feminine Products on the University of Washington Campus
 ## Mission Statement 
 Our mission is to empower young women with comprehensive knowledge about menstrual cycles and reproductive health surrounding the resources around campus. We aim to provide accurate information and resources to help them navigate their upcoming periods by locating feminine care products with more ease & efficiency, ensuring a more informed and comfortable experience throughout their journey.
 
