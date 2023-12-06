@@ -26,7 +26,7 @@ export const locationData =
         "yPos": "47.6517467",
         "Address": "3715 W Stevens Way NE, Seattle, WA 98195",
         "Hours": "Monday - Friday 7:30am - 5:30pm",
-        "Campus": "North",
+        "Campus": "South",
         "Gender": "FALSE",
         "ADACompliant": "FALSE"
         },
@@ -46,7 +46,7 @@ export const locationData =
         "xPos": "-122.307523",
         "Address": "4000 15th Ave NE Room 104, Seattle, WA 98105",
         "Hours": "Monday - Friday 8am - 7pm, Saturday 1pm - 5pm",
-        "Campus": "East",
+        "Campus": "North",
         "Gender": "TRUE",
         "ADACompliant": "FALSE"
         },
@@ -86,7 +86,7 @@ export const locationData =
         "yPos": "47.6549024",
         "Address": "University of Washington, Seattle, WA 98195",
         "Hours": "Monday - Friday 9am - 3pm",
-        "Campus": "North",
+        "Campus": "West",
         "Gender": "TRUE",
         "ADACompliant": "TRUE"
         },
@@ -107,7 +107,7 @@ export const locationData =
         "yPos": "47.6545916",
         "Address": "Seattle, WA 98195",
         "Hours": "Monday - Friday 8am - 7:30pm",
-        "Campus": "North",
+        "Campus": "West",
         "Gender": "FALSE",
         "ADACompliant": "TRUE"
         },
@@ -127,7 +127,7 @@ export const locationData =
         "yPos": "47.6529301",
         "Address": "4000 15th Ave NE",
         "Hours": "Monday - Friday 7am - 5pm",
-        "Campus": "West",
+        "Campus": "Central",
         "Gender": "TRUE",
         "ADACompliant": "TRUE"
         },
@@ -167,7 +167,7 @@ export const locationData =
         "yPos": "47.6571908",
         "Address": "NE 41st St and 15th Ave NE",
         "Hours": "unknown",
-        "Campus": "East",
+        "Campus": "West",
         "Gender": "TRUE",
         "ADACompliant": "FALSE"
         },
@@ -436,7 +436,7 @@ export const locationData =
     "yPos": "47.6542511",
     "Address": "3920 Montlake Blvd NE, Seattle, WA 98195",
     "Hours": "Unknown Hours",
-    "Campus": "South",
+    "Campus": "East",
     "Gender": "TRUE",
     "ADACompliant": "FALSE"
     },
@@ -456,7 +456,7 @@ export const locationData =
     "yPos": "47.6548919",
     "Address": "1851 NE Grant Ln, Seattle, WA 98195",
     "Hours": "Monday - Sunday 7am -12am",
-    "Campus": "West",
+    "Campus": "Central",
     "Gender": "TRUE",
     "ADACompliant": "FALSE"
     },
@@ -476,7 +476,7 @@ export const locationData =
     "yPos": "47.6536876",
     "Address": "3900 E Stevens Way NE, Seattle, WA 98195",
     "Hours": "Monday - Friday 9am -12pm/1pm -4:30pm",
-    "Campus": "South",
+    "Campus": "East",
     "Gender": "TRUE",
     "ADACompliant": "FALSE"
     },
